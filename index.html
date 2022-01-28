@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a href="" class="header-logo">
+                    <img class="logo" src="images/logo.svg" alt="">
+                </a>
+                <nav class="menu">
+                    <button class="menu__burger">
+                        <span class="menu__burger-line"></span>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a href="#" class="menu__list-link">Home</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#" class="menu__list-link">Contact</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#" class="menu__list-link">Features</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#" class="menu__list-link">About</a>
+                        </li>
+                        <li class="menu__list-item--btn">
+                            <a class="sign-in--item" href="#">Sign In</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="sign-in" href="#">Sign In</a>
+            </div>
+            <div class="header-content">
+                <div class="header-content__inner">
+                    <div class="header-content__box">
+                        <h1 class="header-content__title">
+                            Professional cooking with us
+                        </h1>
+                        <div class="header-content__text">
+                            Simcook website that provides complete and delicious recipes for all foods for all who like
+                            to cook and served simply.
+                        </div>
+                        <div class="header-content__social">
+                            <a class="header-social__link" href="#">
+                                <img class="header-social" src="images/instagram.svg" alt="instagram">
+                            </a>
+                            <a class="header-social__link" href="#">
+                                <img class="header-social" src="images/facebook.svg" alt="facebook">
+                            </a>
+                            <a class="header-social__link" href="#">
+                                <img class="header-social" src="images/twitter.svg" alt="twitter">
+                            </a>
+                        </div>
+                        <a class="header-content__btn" href="#">Get Started</a>
+                    </div>
+                    <img class="header-content__img" src="images/content-logo.jpg" alt="content-logo">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="search">
+        <div class="container">
+            <form action="#">
+                <div class="search__items">
+                    <div class="search__item">
+                        <div class="select-title">Ingredients</div>
+                        <div class="select">
+                            <select name="format" id="format">
+                                <option value="fish">fish</option>
+                                <option value="meat">meat</option>
+                                <option value="potatoes">potatoes</option>
+                                <option value="tomato">tomato</option>
+                                <option value="cabbage">cabbage</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="search__item">
+                        <div class="select-title">Method</div>
+                        <div class="select">
+                            <select name="format" id="format">
+                                <option value="Roast">Roast</option>
+                                <option value="meat">boil</option>
+                                <option value="juice">juice</option>
+                                <option value="cook">сook</option>
+                                <option value="liquid">liquid</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="search__item">
+                        <div class="select-title">Many Dishes</div>
+                        <div class="select dishes">
+                            <select class="num" name="format" id="format">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="search-btn" type="submit">Search</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="recipe">
+        <div class="container">
+            <a class="recipe__link" href="#">Food recipe</a>
+            <div class="recipe__box">
+                <h2 class="recipe__box-title">With delicious food</h2>
+                <a class="recipe__box-link" href="#">See more</a>
+            </div>
+            <div class="recipe__items">
+                <div class="recipe__item">
+                    <div class="recipe-img">
+                        <img src="images/recipe-1.jpg" alt="recipe-img">
+                    </div>
+                    <form action="#" class="form form_margin">
+                        <div class="form">
+                            <div class="form__label">Beef Green</div>
+                            <div class="rating rating_set">
+                                <div class="rating__body">
+                                    <div class="rating__active"></div>
+                                    <div class="rating__items">
+                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                    </div>
+                                </div>
+                                <div class="rating__value">4.5</div>
+                                <div class="rating__num">/5</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="recipe__item">
+                    <div class="recipe-img">
+                        <img src="images/recipe-1.jpg" alt="recipe-img">
+                    </div>
+                    <form action="#" class="form form_margin">
+                        <div class="form">
+                            <div class="form__label">Beef Green</div>
+                            <div class="rating rating_set">
+                                <div class="rating__body">
+                                    <div class="rating__active"></div>
+                                    <div class="rating__items">
+                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                    </div>
+                                </div>
+                                <div class="rating__value">4.5</div>
+                                <div class="rating__num">/5</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="about-us">
+        <div class="container">
+            <div class="about-us__inner">
+                <div class="about-us__img">
+                    <img src="images/aboutus-bg.jpg" alt="">
+                </div>
+                <div class="about-us__content">
+                    <a class="about-us__link" href="#">About Us</a>
+                    <h2 class="about-us__title">With Professional chef</h2>
+                    <p class="about-us__text">
+                        Dishes made directly by professional chefs with complete recipes as well as relevant ingredients
+                        and tools commonly used for everyday cooking.
+                    </p>
+                    <div class="about-us__items">
+                        <div class="about-us__item">
+                            <div class="about-us__item-title">Experienced Chef</div>
+                            <div class="about-us__item-text">With a chef with more than 10 years of experience.</div>
+                        </div>
+                        <div class="about-us__item">
+                            <div class="about-us__item-title">Certified</div>
+                            <div class="about-us__item-text">Certified cook with more perfect cooking skills.</div>
+                        </div>
+                        <div class="about-us__item arrow">
+                            <div class="about-us__item-title">Experienced Chef</div>
+                            <div class="about-us__item-text">With a chef with more than 10 years of experience.</div>
+                        </div>
+                        <div class="about-us__item arrow">
+                            <div class="about-us__item-title">Experienced Chef</div>
+                            <div class="about-us__item-text">With a chef with more than 10 years of experience.</div>
+                        </div>
+                    </div>
+                    <div class="about-btn">
+                        <img src="images/arrow-items.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__inner">
+                <div class="reviews__content">
+                    <a class="reviews__content-link" href="#">What Said</a>
+                    <h3 class="reviews__content-title">What users say?</h3>
+                    <p class="reviews__content-text">
+                        I managed to make this dish deliciously and with the right dose and easily available
+                        ingredients, I thank you very much with this site or application because it is very helpful for
+                        housewives who cannot cook or the food is not good.
+                    </p>
+                    <form action="#" class="form form_margin">
+                        <div class="form">
+                            <div class="form__box">
+                                <img src="images/person-1.jpg" alt="logo">
+                                <div class="form__box-text">
+                                    <div class="form__box-name">Sarah Wilson</div>
+                                    <div class="form__box-profession">Teach Cooking</div>
+                                </div>
+                            </div>
+                            <div class="rating rating_set">
+                                <div class="rating__body">
+                                    <div class="rating__active"></div>
+                                    <div class="rating__items">
+                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                    </div>
+                                </div>
+                                <div class="rating__value">4.5</div>
+                                <div class="rating__num">/5</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="reviews__img">
+                    <img src="images/reviews-img.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-recipes">
+        <div class="container">
+            <div class="get-recipes__inner">
+                <div class="get-recipes__img">
+                    <img src="images/get_recipes-img.jpg" alt="logo">
+                </div>
+                <div class="get-recipes__content">
+                    <h3 class="get-recipes__title">You want to get lots of recipes</h3>
+                    <p class="get-recipes__text">More recipes and all ingredients will be shown and get support from us
+                        for 24 hours.</p>
+                    <div class="joined__box">
+                        <div class="joined-persons">
+                            <img class="person-5" src="images/person-5.jpg" alt="logo">
+                            <img class="person-4" src="images/person-4.jpg" alt="logo">
+                            <img class="person-3" src="images/person-3.jpg" alt="logo">
+                            <img class="person-2" src="images/person-2.jpg" alt="logo">
+                        </div>
+                        <div class="joined-num">24.678K <span>Joined</span> </div>
+                    </div>
+                    <form class="get-recipes__form" action="#">
+                        <input class="get-recipes__input" type="text" placeholder="Lets Join With Us" required>
+                        <button class="get-recipes__btn" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+   <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer-box">
+                    <img class="footer-logo" src="images/footer-logo.svg" alt="logo">
+                    <p class="footer-text">
+                        More recipes and all ingredients will be shown.
+                    </p>
+                </div>
+                <div class="about">
+                    <div class="about__title">
+                        About Us
+                    </div>
+                    <ul class="about-list">
+                        <li class="about-list__item">Features</li>
+                        <li class="about-list__item">Recipe</li>
+                        <li class="about-list__item">Careers</li>
+                        <li class="about-list__item">Subscribe</li>
+                        <li class="about-list__item">Customer Care</li>
+                    </ul>
+                </div>
+                <div class="support">
+                    <div class="support__title">
+                        Support
+                    </div>
+                    <ul class="support-list">
+                        <li class="support-list__item">Contact Us</li>
+                        <li class="support-list__item">FaQ</li>
+                        <li class="support-list__item">Call Center</li>
+                    </ul>
+                </div>
+                <div class="ask">
+                    <div class="ask-title">Want To Ask?</div>
+                    <form class="ask-form" action="#">
+                        <textarea class="ask-text" name="text" required></textarea>
+                        <button class="ask-btn" type="submit">Send Me</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
